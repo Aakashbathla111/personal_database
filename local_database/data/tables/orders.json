@@ -1,0 +1,965 @@
+{
+  "name": "orders",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primary_key": true,
+      "nullable": false,
+      "unique": true,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "employee_id",
+      "datatype": "INT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "product",
+      "datatype": "TEXT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "amount",
+      "datatype": "FLOAT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "status",
+      "datatype": "TEXT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "employee_id": 16,
+      "product": "Laptop",
+      "amount": 519.7,
+      "status": "pending",
+      "_xmin": 64,
+      "_xmax": 0
+    },
+    {
+      "id": 2,
+      "employee_id": 6,
+      "product": "Chair",
+      "amount": 1641.25,
+      "status": "shipped",
+      "_xmin": 65,
+      "_xmax": 0
+    },
+    {
+      "id": 3,
+      "employee_id": 9,
+      "product": "Chair",
+      "amount": 1896.35,
+      "status": "shipped",
+      "_xmin": 66,
+      "_xmax": 0
+    },
+    {
+      "id": 4,
+      "employee_id": 17,
+      "product": "Phone",
+      "amount": 1751.24,
+      "status": "cancelled",
+      "_xmin": 67,
+      "_xmax": 0
+    },
+    {
+      "id": 5,
+      "employee_id": 14,
+      "product": "Phone",
+      "amount": 1522.77,
+      "status": "shipped",
+      "_xmin": 68,
+      "_xmax": 0
+    },
+    {
+      "id": 6,
+      "employee_id": 46,
+      "product": "Headset",
+      "amount": 828.03,
+      "status": "delivered",
+      "_xmin": 69,
+      "_xmax": 0
+    },
+    {
+      "id": 7,
+      "employee_id": 29,
+      "product": "Phone",
+      "amount": 930.4,
+      "status": "shipped",
+      "_xmin": 70,
+      "_xmax": 0
+    },
+    {
+      "id": 8,
+      "employee_id": 15,
+      "product": "Monitor",
+      "amount": 709.27,
+      "status": "shipped",
+      "_xmin": 71,
+      "_xmax": 0
+    },
+    {
+      "id": 9,
+      "employee_id": 38,
+      "product": "Mouse",
+      "amount": 64.02,
+      "status": "pending",
+      "_xmin": 72,
+      "_xmax": 0
+    },
+    {
+      "id": 10,
+      "employee_id": 15,
+      "product": "Monitor",
+      "amount": 1815.57,
+      "status": "delivered",
+      "_xmin": 73,
+      "_xmax": 0
+    },
+    {
+      "id": 11,
+      "employee_id": 5,
+      "product": "Phone",
+      "amount": 514.11,
+      "status": "cancelled",
+      "_xmin": 74,
+      "_xmax": 0
+    },
+    {
+      "id": 12,
+      "employee_id": 14,
+      "product": "Phone",
+      "amount": 308.01,
+      "status": "cancelled",
+      "_xmin": 75,
+      "_xmax": 0
+    },
+    {
+      "id": 13,
+      "employee_id": 16,
+      "product": "Chair",
+      "amount": 1624.62,
+      "status": "shipped",
+      "_xmin": 76,
+      "_xmax": 0
+    },
+    {
+      "id": 14,
+      "employee_id": 7,
+      "product": "Monitor",
+      "amount": 1335.02,
+      "status": "delivered",
+      "_xmin": 77,
+      "_xmax": 0
+    },
+    {
+      "id": 15,
+      "employee_id": 28,
+      "product": "Desk",
+      "amount": 960.7,
+      "status": "pending",
+      "_xmin": 78,
+      "_xmax": 0
+    },
+    {
+      "id": 16,
+      "employee_id": 44,
+      "product": "Monitor",
+      "amount": 168.19,
+      "status": "delivered",
+      "_xmin": 79,
+      "_xmax": 0
+    },
+    {
+      "id": 17,
+      "employee_id": 7,
+      "product": "Mouse",
+      "amount": 423.6,
+      "status": "cancelled",
+      "_xmin": 80,
+      "_xmax": 0
+    },
+    {
+      "id": 18,
+      "employee_id": 9,
+      "product": "Desk",
+      "amount": 407.8,
+      "status": "cancelled",
+      "_xmin": 81,
+      "_xmax": 0
+    },
+    {
+      "id": 19,
+      "employee_id": 16,
+      "product": "Monitor",
+      "amount": 914.1,
+      "status": "pending",
+      "_xmin": 82,
+      "_xmax": 0
+    },
+    {
+      "id": 20,
+      "employee_id": 4,
+      "product": "Phone",
+      "amount": 1680.25,
+      "status": "pending",
+      "_xmin": 83,
+      "_xmax": 0
+    },
+    {
+      "id": 21,
+      "employee_id": 49,
+      "product": "Mouse",
+      "amount": 374.31,
+      "status": "cancelled",
+      "_xmin": 84,
+      "_xmax": 0
+    },
+    {
+      "id": 22,
+      "employee_id": 31,
+      "product": "Mouse",
+      "amount": 1736.07,
+      "status": "pending",
+      "_xmin": 85,
+      "_xmax": 0
+    },
+    {
+      "id": 23,
+      "employee_id": 11,
+      "product": "Desk",
+      "amount": 54.2,
+      "status": "cancelled",
+      "_xmin": 86,
+      "_xmax": 0
+    },
+    {
+      "id": 24,
+      "employee_id": 17,
+      "product": "Chair",
+      "amount": 606.24,
+      "status": "cancelled",
+      "_xmin": 87,
+      "_xmax": 0
+    },
+    {
+      "id": 25,
+      "employee_id": 10,
+      "product": "Mouse",
+      "amount": 628.58,
+      "status": "pending",
+      "_xmin": 88,
+      "_xmax": 0
+    },
+    {
+      "id": 26,
+      "employee_id": 38,
+      "product": "Phone",
+      "amount": 168.87,
+      "status": "delivered",
+      "_xmin": 89,
+      "_xmax": 0
+    },
+    {
+      "id": 27,
+      "employee_id": 4,
+      "product": "Laptop",
+      "amount": 1189.15,
+      "status": "shipped",
+      "_xmin": 90,
+      "_xmax": 0
+    },
+    {
+      "id": 28,
+      "employee_id": 4,
+      "product": "Phone",
+      "amount": 206.22,
+      "status": "shipped",
+      "_xmin": 91,
+      "_xmax": 0
+    },
+    {
+      "id": 29,
+      "employee_id": 5,
+      "product": "Tablet",
+      "amount": 182.52,
+      "status": "shipped",
+      "_xmin": 92,
+      "_xmax": 0
+    },
+    {
+      "id": 30,
+      "employee_id": 26,
+      "product": "Monitor",
+      "amount": 1886.11,
+      "status": "shipped",
+      "_xmin": 93,
+      "_xmax": 0
+    },
+    {
+      "id": 31,
+      "employee_id": 38,
+      "product": "Tablet",
+      "amount": 127.5,
+      "status": "pending",
+      "_xmin": 94,
+      "_xmax": 0
+    },
+    {
+      "id": 32,
+      "employee_id": 27,
+      "product": "Tablet",
+      "amount": 1152.19,
+      "status": "delivered",
+      "_xmin": 95,
+      "_xmax": 0
+    },
+    {
+      "id": 33,
+      "employee_id": 17,
+      "product": "Mouse",
+      "amount": 1355.97,
+      "status": "delivered",
+      "_xmin": 96,
+      "_xmax": 0
+    },
+    {
+      "id": 34,
+      "employee_id": 16,
+      "product": "Headset",
+      "amount": 821.78,
+      "status": "delivered",
+      "_xmin": 97,
+      "_xmax": 0
+    },
+    {
+      "id": 35,
+      "employee_id": 30,
+      "product": "Webcam",
+      "amount": 1861.59,
+      "status": "pending",
+      "_xmin": 98,
+      "_xmax": 0
+    },
+    {
+      "id": 36,
+      "employee_id": 1,
+      "product": "Chair",
+      "amount": 1261.26,
+      "status": "pending",
+      "_xmin": 99,
+      "_xmax": 0
+    },
+    {
+      "id": 37,
+      "employee_id": 5,
+      "product": "Phone",
+      "amount": 465.65,
+      "status": "delivered",
+      "_xmin": 100,
+      "_xmax": 0
+    },
+    {
+      "id": 38,
+      "employee_id": 9,
+      "product": "Webcam",
+      "amount": 1767.69,
+      "status": "shipped",
+      "_xmin": 101,
+      "_xmax": 0
+    },
+    {
+      "id": 39,
+      "employee_id": 24,
+      "product": "Headset",
+      "amount": 357.61,
+      "status": "delivered",
+      "_xmin": 102,
+      "_xmax": 0
+    },
+    {
+      "id": 40,
+      "employee_id": 40,
+      "product": "Phone",
+      "amount": 65.26,
+      "status": "delivered",
+      "_xmin": 103,
+      "_xmax": 0
+    },
+    {
+      "id": 41,
+      "employee_id": 43,
+      "product": "Monitor",
+      "amount": 1880.91,
+      "status": "shipped",
+      "_xmin": 104,
+      "_xmax": 0
+    },
+    {
+      "id": 42,
+      "employee_id": 17,
+      "product": "Monitor",
+      "amount": 1784.94,
+      "status": "shipped",
+      "_xmin": 105,
+      "_xmax": 0
+    },
+    {
+      "id": 43,
+      "employee_id": 18,
+      "product": "Headset",
+      "amount": 1229.42,
+      "status": "delivered",
+      "_xmin": 106,
+      "_xmax": 0
+    },
+    {
+      "id": 44,
+      "employee_id": 14,
+      "product": "Headset",
+      "amount": 1035.55,
+      "status": "delivered",
+      "_xmin": 107,
+      "_xmax": 0
+    },
+    {
+      "id": 45,
+      "employee_id": 4,
+      "product": "Monitor",
+      "amount": 1286.85,
+      "status": "delivered",
+      "_xmin": 108,
+      "_xmax": 0
+    },
+    {
+      "id": 46,
+      "employee_id": 3,
+      "product": "Laptop",
+      "amount": 700.44,
+      "status": "shipped",
+      "_xmin": 109,
+      "_xmax": 0
+    },
+    {
+      "id": 47,
+      "employee_id": 41,
+      "product": "Headset",
+      "amount": 365.08,
+      "status": "cancelled",
+      "_xmin": 110,
+      "_xmax": 0
+    },
+    {
+      "id": 48,
+      "employee_id": 36,
+      "product": "Desk",
+      "amount": 1143.77,
+      "status": "pending",
+      "_xmin": 111,
+      "_xmax": 0
+    },
+    {
+      "id": 49,
+      "employee_id": 5,
+      "product": "Keyboard",
+      "amount": 1113.9,
+      "status": "delivered",
+      "_xmin": 112,
+      "_xmax": 0
+    },
+    {
+      "id": 50,
+      "employee_id": 38,
+      "product": "Phone",
+      "amount": 338.78,
+      "status": "shipped",
+      "_xmin": 113,
+      "_xmax": 0
+    },
+    {
+      "id": 51,
+      "employee_id": 3,
+      "product": "Headset",
+      "amount": 761.07,
+      "status": "pending",
+      "_xmin": 114,
+      "_xmax": 0
+    },
+    {
+      "id": 52,
+      "employee_id": 23,
+      "product": "Mouse",
+      "amount": 1380.03,
+      "status": "pending",
+      "_xmin": 115,
+      "_xmax": 0
+    },
+    {
+      "id": 53,
+      "employee_id": 23,
+      "product": "Phone",
+      "amount": 1774.06,
+      "status": "cancelled",
+      "_xmin": 116,
+      "_xmax": 0
+    },
+    {
+      "id": 54,
+      "employee_id": 40,
+      "product": "Keyboard",
+      "amount": 1855.24,
+      "status": "shipped",
+      "_xmin": 117,
+      "_xmax": 0
+    },
+    {
+      "id": 55,
+      "employee_id": 11,
+      "product": "Keyboard",
+      "amount": 1768.76,
+      "status": "pending",
+      "_xmin": 118,
+      "_xmax": 0
+    },
+    {
+      "id": 56,
+      "employee_id": 12,
+      "product": "Webcam",
+      "amount": 1575.65,
+      "status": "cancelled",
+      "_xmin": 119,
+      "_xmax": 0
+    },
+    {
+      "id": 57,
+      "employee_id": 43,
+      "product": "Mouse",
+      "amount": 570.27,
+      "status": "pending",
+      "_xmin": 120,
+      "_xmax": 0
+    },
+    {
+      "id": 58,
+      "employee_id": 25,
+      "product": "Laptop",
+      "amount": 1724.26,
+      "status": "shipped",
+      "_xmin": 121,
+      "_xmax": 0
+    },
+    {
+      "id": 59,
+      "employee_id": 13,
+      "product": "Chair",
+      "amount": 731.83,
+      "status": "shipped",
+      "_xmin": 122,
+      "_xmax": 0
+    },
+    {
+      "id": 60,
+      "employee_id": 15,
+      "product": "Laptop",
+      "amount": 1337.06,
+      "status": "cancelled",
+      "_xmin": 123,
+      "_xmax": 0
+    },
+    {
+      "id": 61,
+      "employee_id": 22,
+      "product": "Headset",
+      "amount": 1735.49,
+      "status": "delivered",
+      "_xmin": 124,
+      "_xmax": 0
+    },
+    {
+      "id": 62,
+      "employee_id": 23,
+      "product": "Phone",
+      "amount": 829.37,
+      "status": "delivered",
+      "_xmin": 125,
+      "_xmax": 0
+    },
+    {
+      "id": 63,
+      "employee_id": 2,
+      "product": "Monitor",
+      "amount": 1760.22,
+      "status": "delivered",
+      "_xmin": 126,
+      "_xmax": 0
+    },
+    {
+      "id": 64,
+      "employee_id": 12,
+      "product": "Tablet",
+      "amount": 1926.94,
+      "status": "delivered",
+      "_xmin": 127,
+      "_xmax": 0
+    },
+    {
+      "id": 65,
+      "employee_id": 3,
+      "product": "Monitor",
+      "amount": 1213.31,
+      "status": "delivered",
+      "_xmin": 128,
+      "_xmax": 0
+    },
+    {
+      "id": 66,
+      "employee_id": 47,
+      "product": "Webcam",
+      "amount": 900.97,
+      "status": "pending",
+      "_xmin": 129,
+      "_xmax": 0
+    },
+    {
+      "id": 67,
+      "employee_id": 25,
+      "product": "Tablet",
+      "amount": 420.65,
+      "status": "pending",
+      "_xmin": 130,
+      "_xmax": 0
+    },
+    {
+      "id": 68,
+      "employee_id": 46,
+      "product": "Desk",
+      "amount": 53.3,
+      "status": "shipped",
+      "_xmin": 131,
+      "_xmax": 0
+    },
+    {
+      "id": 69,
+      "employee_id": 24,
+      "product": "Desk",
+      "amount": 186.45,
+      "status": "delivered",
+      "_xmin": 132,
+      "_xmax": 0
+    },
+    {
+      "id": 70,
+      "employee_id": 40,
+      "product": "Webcam",
+      "amount": 1343.61,
+      "status": "pending",
+      "_xmin": 133,
+      "_xmax": 0
+    },
+    {
+      "id": 71,
+      "employee_id": 47,
+      "product": "Headset",
+      "amount": 1038.89,
+      "status": "cancelled",
+      "_xmin": 134,
+      "_xmax": 0
+    },
+    {
+      "id": 72,
+      "employee_id": 21,
+      "product": "Desk",
+      "amount": 1409.56,
+      "status": "shipped",
+      "_xmin": 135,
+      "_xmax": 0
+    },
+    {
+      "id": 73,
+      "employee_id": 13,
+      "product": "Desk",
+      "amount": 1346.61,
+      "status": "cancelled",
+      "_xmin": 136,
+      "_xmax": 0
+    },
+    {
+      "id": 74,
+      "employee_id": 44,
+      "product": "Keyboard",
+      "amount": 1250.25,
+      "status": "delivered",
+      "_xmin": 137,
+      "_xmax": 0
+    },
+    {
+      "id": 75,
+      "employee_id": 26,
+      "product": "Phone",
+      "amount": 1675.76,
+      "status": "delivered",
+      "_xmin": 138,
+      "_xmax": 0
+    },
+    {
+      "id": 76,
+      "employee_id": 19,
+      "product": "Mouse",
+      "amount": 888.28,
+      "status": "delivered",
+      "_xmin": 139,
+      "_xmax": 0
+    },
+    {
+      "id": 77,
+      "employee_id": 30,
+      "product": "Chair",
+      "amount": 912.21,
+      "status": "shipped",
+      "_xmin": 140,
+      "_xmax": 0
+    },
+    {
+      "id": 78,
+      "employee_id": 33,
+      "product": "Chair",
+      "amount": 1597.78,
+      "status": "shipped",
+      "_xmin": 141,
+      "_xmax": 0
+    },
+    {
+      "id": 79,
+      "employee_id": 43,
+      "product": "Monitor",
+      "amount": 603.38,
+      "status": "delivered",
+      "_xmin": 142,
+      "_xmax": 0
+    },
+    {
+      "id": 80,
+      "employee_id": 6,
+      "product": "Mouse",
+      "amount": 1361.95,
+      "status": "shipped",
+      "_xmin": 143,
+      "_xmax": 0
+    },
+    {
+      "id": 81,
+      "employee_id": 13,
+      "product": "Keyboard",
+      "amount": 97.63,
+      "status": "shipped",
+      "_xmin": 144,
+      "_xmax": 0
+    },
+    {
+      "id": 82,
+      "employee_id": 31,
+      "product": "Tablet",
+      "amount": 1706.99,
+      "status": "pending",
+      "_xmin": 145,
+      "_xmax": 0
+    },
+    {
+      "id": 83,
+      "employee_id": 30,
+      "product": "Desk",
+      "amount": 1777.97,
+      "status": "shipped",
+      "_xmin": 146,
+      "_xmax": 0
+    },
+    {
+      "id": 84,
+      "employee_id": 46,
+      "product": "Desk",
+      "amount": 1014.04,
+      "status": "shipped",
+      "_xmin": 147,
+      "_xmax": 0
+    },
+    {
+      "id": 85,
+      "employee_id": 10,
+      "product": "Laptop",
+      "amount": 1790.69,
+      "status": "pending",
+      "_xmin": 148,
+      "_xmax": 0
+    },
+    {
+      "id": 86,
+      "employee_id": 50,
+      "product": "Desk",
+      "amount": 476.74,
+      "status": "cancelled",
+      "_xmin": 149,
+      "_xmax": 0
+    },
+    {
+      "id": 87,
+      "employee_id": 4,
+      "product": "Phone",
+      "amount": 535.94,
+      "status": "pending",
+      "_xmin": 150,
+      "_xmax": 0
+    },
+    {
+      "id": 88,
+      "employee_id": 30,
+      "product": "Keyboard",
+      "amount": 1612.76,
+      "status": "delivered",
+      "_xmin": 151,
+      "_xmax": 0
+    },
+    {
+      "id": 89,
+      "employee_id": 49,
+      "product": "Chair",
+      "amount": 1244.67,
+      "status": "cancelled",
+      "_xmin": 152,
+      "_xmax": 0
+    },
+    {
+      "id": 90,
+      "employee_id": 36,
+      "product": "Chair",
+      "amount": 1799.56,
+      "status": "cancelled",
+      "_xmin": 153,
+      "_xmax": 0
+    },
+    {
+      "id": 91,
+      "employee_id": 29,
+      "product": "Headset",
+      "amount": 1515.96,
+      "status": "delivered",
+      "_xmin": 154,
+      "_xmax": 0
+    },
+    {
+      "id": 92,
+      "employee_id": 50,
+      "product": "Phone",
+      "amount": 994.96,
+      "status": "shipped",
+      "_xmin": 155,
+      "_xmax": 0
+    },
+    {
+      "id": 93,
+      "employee_id": 18,
+      "product": "Chair",
+      "amount": 201.09,
+      "status": "delivered",
+      "_xmin": 156,
+      "_xmax": 0
+    },
+    {
+      "id": 94,
+      "employee_id": 16,
+      "product": "Headset",
+      "amount": 704.9,
+      "status": "pending",
+      "_xmin": 157,
+      "_xmax": 0
+    },
+    {
+      "id": 95,
+      "employee_id": 9,
+      "product": "Keyboard",
+      "amount": 500.96,
+      "status": "shipped",
+      "_xmin": 158,
+      "_xmax": 0
+    },
+    {
+      "id": 96,
+      "employee_id": 46,
+      "product": "Mouse",
+      "amount": 175.25,
+      "status": "cancelled",
+      "_xmin": 159,
+      "_xmax": 0
+    },
+    {
+      "id": 97,
+      "employee_id": 22,
+      "product": "Phone",
+      "amount": 958.55,
+      "status": "pending",
+      "_xmin": 160,
+      "_xmax": 0
+    },
+    {
+      "id": 98,
+      "employee_id": 14,
+      "product": "Desk",
+      "amount": 809.48,
+      "status": "pending",
+      "_xmin": 161,
+      "_xmax": 0
+    },
+    {
+      "id": 99,
+      "employee_id": 49,
+      "product": "Tablet",
+      "amount": 791.74,
+      "status": "pending",
+      "_xmin": 162,
+      "_xmax": 0
+    },
+    {
+      "id": 100,
+      "employee_id": 23,
+      "product": "Headset",
+      "amount": 1519.28,
+      "status": "cancelled",
+      "_xmin": 163,
+      "_xmax": 0
+    }
+  ],
+  "indexes": [
+    {
+      "name": "idx_orders_status",
+      "table_name": "orders",
+      "column_name": "status",
+      "unique": false
+    }
+  ]
+}

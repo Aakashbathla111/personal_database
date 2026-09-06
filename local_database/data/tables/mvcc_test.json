@@ -1,0 +1,52 @@
+{
+  "name": "mvcc_test",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primary_key": true,
+      "nullable": false,
+      "unique": true,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "name",
+      "datatype": "TEXT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "_xmin": 4,
+      "_xmax": 0
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "_xmin": 5,
+      "_xmax": 0
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "_xmin": 7,
+      "_xmax": 0
+    },
+    {
+      "id": 4,
+      "name": "Dave",
+      "_xmin": 8,
+      "_xmax": 0
+    }
+  ],
+  "indexes": []
+}

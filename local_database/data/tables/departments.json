@@ -1,0 +1,73 @@
+{
+  "name": "departments",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primary_key": true,
+      "nullable": false,
+      "unique": true,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "name",
+      "datatype": "TEXT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "budget",
+      "datatype": "FLOAT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "name": "Engineering",
+      "budget": 500000,
+      "_xmin": 9,
+      "_xmax": 0
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "budget": 200000,
+      "_xmin": 10,
+      "_xmax": 0
+    },
+    {
+      "id": 3,
+      "name": "Sales",
+      "budget": 300000,
+      "_xmin": 11,
+      "_xmax": 0
+    },
+    {
+      "id": 4,
+      "name": "HR",
+      "budget": 150000,
+      "_xmin": 12,
+      "_xmax": 0
+    },
+    {
+      "id": 5,
+      "name": "Finance",
+      "budget": 250000,
+      "_xmin": 13,
+      "_xmax": 0
+    }
+  ],
+  "indexes": []
+}

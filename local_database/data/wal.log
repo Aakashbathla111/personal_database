@@ -1,0 +1,1 @@
+{"lsn": 1, "ts": 1788594388.620797, "txn_id": 183, "op": "UPDATE", "table": "employees", "set": {"name": "Ghost"}, "where": "id = 99"}

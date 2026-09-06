@@ -1,0 +1,57 @@
+{
+  "name": "employee",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primary_key": true,
+      "nullable": false,
+      "unique": true,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "name",
+      "datatype": "TEXT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "age",
+      "datatype": "INT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "department",
+      "datatype": "TEXT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    },
+    {
+      "name": "salary",
+      "datatype": "FLOAT",
+      "primary_key": false,
+      "nullable": true,
+      "unique": false,
+      "default": null,
+      "check": null,
+      "foreign_key": null
+    }
+  ],
+  "rows": [],
+  "indexes": []
+}
